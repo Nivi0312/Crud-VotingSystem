@@ -13,9 +13,7 @@ const Result = () => {
                 setState(() => res.data)
             })
             .catch(err => console.log(err))
-    }, [])
-
-    
+    }, [])   
     
     return (
         <>
